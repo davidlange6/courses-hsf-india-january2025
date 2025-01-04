@@ -22,5 +22,12 @@ ar x nsight-systems-2024.7.1_2024.7.1.84-1_amd64.deb
 tar xf data.tar.gz
 rm data.tar.gz
 mv opt /srv/conda/envs/notebook
+
+#clean up. maybe too much?
+cd ..
+rm -r nsys_work
+
 cd /srv/conda/envs/notebook/bin
 ln -s ../opt/nvidia/nsight-systems/2024.7.1/bin/nsys
+
+
