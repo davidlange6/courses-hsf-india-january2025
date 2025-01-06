@@ -49,6 +49,7 @@ dependencies:
       - pycuda #seems that this needs to be installed together with numpy
       - pyhf
       - scikit-learn
+      - servicex
       - tables
       - uproot
       - vector
