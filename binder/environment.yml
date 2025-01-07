@@ -8,6 +8,7 @@ dependencies:
   - libcurand-dev
   - cuda-minimal-build=12.4
   - cupy
+  - graphviz
   - nomkl #remove the large mkl lib stuff
   - pip
 #  - emacs - broken after install, so just remove it
