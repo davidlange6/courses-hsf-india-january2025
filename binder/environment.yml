@@ -59,6 +59,7 @@ dependencies:
       - jax[cuda12]
       - graphviz
       - dask-labextension
+      - servicex
       - tensorflow
       - tensorflow-probability
       - tensorrt
